@@ -7,3 +7,9 @@
   body {
     font-family: 'montserrat', sans-serif;
   }
+
+  .appBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
