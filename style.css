@@ -29,3 +29,18 @@
   align-items: center;
   text-align: center;
 }
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  font-size: 20px;
+  color: #907a7a;
+  padding: 10px 15px;
+  transition: 0.2s ease-out;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-bottom: 3px solid gray;
+  font-weight: 300;
+  border-radius: 0px 16px 0px 16px;
+}
