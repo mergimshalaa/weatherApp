@@ -6,6 +6,8 @@
   
   body {
     font-family: 'montserrat', sans-serif;
+    background-image: url('./weatherpic.webp');
+    background-size: cover;
   }
 
   .appBox {
@@ -42,5 +44,5 @@ header input {
   background-color: black;
   border-bottom: 3px solid gray;
   font-weight: 300;
-  border-radius: 0px 16px 0px 16px;
+  border-radius: 20px 0px 20px 0px;
 }
