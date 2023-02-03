@@ -16,6 +16,14 @@
     min-height: 100vh;
   }
 
+  .current-temp .temperature {
+    color: #fff;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+    font-size: 100px;
+  }
+
   header {
     display: flex;
     justify-content: center;
