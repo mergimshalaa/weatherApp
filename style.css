@@ -8,12 +8,16 @@
     font-family: 'montserrat', sans-serif;
     background-image: url('./weatherpic.webp');
     background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .appBox {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    max-width: 50vh;
   }
 
 .current-temp .temperature {
@@ -44,12 +48,12 @@ header input {
   width: 100%;
   max-width: 280px;
   font-size: 20px;
-  color: #907a7a;
+  color: gray;
   padding: 10px 15px;
   transition: 0.2s ease-out;
   border: none;
   outline: none;
-  background-color: black;
+  background-color: white;
   border-bottom: 3px solid gray;
   font-weight: 300;
   border-radius: 20px
