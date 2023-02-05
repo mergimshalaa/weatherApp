@@ -11,13 +11,27 @@
     display: flex;
     height: 100vh;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
   
   .appBox {
-    display: flex;
-    flex-direction: column;
-    max-width: 50vh;
+    background: rgba(143, 109, 109, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 35%);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    overflow: hidden;
+  }
+
+  .appBox:hover {
+    box-shadow: 0 15px 50px 0 rgb(31 38 135 / 50%);
   }
 
 .current-temp .temperature {
