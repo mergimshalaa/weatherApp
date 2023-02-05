@@ -72,3 +72,15 @@ header input {
   font-weight: 300;
   border-radius: 20px
 }
+
+.location .city {
+  margin-bottom: 7px;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(53, 49, 49);
+}
+
+.location .date {
+  color: rgb(53, 49, 49);
+  font-size: 20px;
+}
