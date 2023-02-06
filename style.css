@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  h1 {
+    color: rgb(33, 22, 22);
+    text-decoration: underline;
+    font-weight: 700;
+  }
   
   body {
     font-family: 'montserrat', sans-serif;
