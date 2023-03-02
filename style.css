@@ -8,6 +8,9 @@
     color: rgb(33, 22, 22);
     text-decoration: underline;
     font-weight: 700;
+    -webkit-text-stroke: 2px black;
+    font-size: 4rem;
+    font-family: sans; color: yellow;
   }
   
   body {
