@@ -31,7 +31,11 @@ function getResults(query) {
     .then((weather) => {
       return weather.json();
     })
-    .then(displayResults);
+    .then(displayResults)
+    .catch((err) => {
+      console.log(err);
+      alert("Something went wrong. Please try again.");
+    });
 }
 
 /**
