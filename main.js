@@ -17,7 +17,7 @@ searchbox.addEventListener("keypress", setQuery);
  * @param {KeyboardEvent} evt
  */
 function setQuery(evt) {
-  if (evt.keyCode == 13) {
+  if (evt.key === 'Enter') {
     getResults(searchbox.value);
   }
 }
@@ -61,6 +61,14 @@ function displayResults(weather) {
     weather.main.temp_max
   )}°c`;
 }
+
+// Add event listener to the button with ID "btn"
+const btn = document.getElementById("btn");
+btn.addEventListener("click", () => {
+  const query = searchbox.value;
+  getResults(query);
+});
+
 
 /**
  * Build the date string.
