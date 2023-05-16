@@ -1,3 +1,3 @@
 # weatherApp
 
-An app showing the weather from different cities/countries. This was created to get more familiar fetching API.
+An app that displays weather information from different cities and countries. The purpose of the app was to gain more experience fetching data from an API (OpenWeatherMap).
